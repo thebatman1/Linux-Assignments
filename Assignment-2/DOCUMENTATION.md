@@ -21,7 +21,7 @@ This macro defines the function to be called at module removal time (or never, i
 3. **printk() include/linux/kernel.h**
 printk() feeds kernel messages to the console, dmesg, and the syslog daemon. It is useful for debugging and reporting errors, and can be used inside interrupt context, but use with caution: a machine which has its console flooded with printk messages is unusable. It uses a format string mostly compatible with ANSI C printf, and C string concatenation to give it a first "priority" argument:
 
-	printk(KERN\_INFO "i = %u\n", i);
+		printk(KERN\_INFO "i = %u\n", i);
    
 	See include/linux/kernel.h; for other KERN_ values; these are interpreted by syslog as the level. Special case: for printing an IP address use
 
