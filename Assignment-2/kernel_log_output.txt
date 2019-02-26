@@ -1,0 +1,11 @@
+Feb 26 22:58:58 CS-1443 NetworkManager[743]: <info>  [1551202138.3663]   gateway 192.168.44.1
+Feb 26 22:58:58 CS-1443 NetworkManager[743]: <info>  [1551202138.3663]   server identifier 192.168.47.224
+Feb 26 22:58:58 CS-1443 NetworkManager[743]: <info>  [1551202138.3663]   lease time 21600
+Feb 26 22:58:58 CS-1443 NetworkManager[743]: <info>  [1551202138.3663]   nameserver '172.16.30.50'
+Feb 26 22:58:58 CS-1443 NetworkManager[743]: <info>  [1551202138.3663]   domain name 'cse.nits.ac.in'
+Feb 26 22:58:58 CS-1443 NetworkManager[743]: <info>  [1551202138.3664] dhcp4 (eno1): state changed bound -> bound
+Feb 26 23:34:22 CS-1443 kernel: [21026.698060] myname: loading out-of-tree module taints kernel.
+Feb 26 23:34:22 CS-1443 kernel: [21026.698090] myname: module verification failed: signature and/or required key missing - tainting kernel
+Feb 26 23:34:22 CS-1443 kernel: [21026.698385] My name is MRINMAY MUKHERJEE
+Feb 26 23:35:02 CS-1443 kernel: [21066.659073] Exiting.... BYE!! 
+

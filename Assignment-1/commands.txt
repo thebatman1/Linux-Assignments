@@ -1,0 +1,12 @@
+To download the kernel: aria2c -x 16 https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.20.12.tar.xz
+To unzip the tarbal: tar -xJf linux-4.20.12.tar.xz
+cd linux-4.20.12
+cp -v /boot/config-$(uname -r) .config
+sudo apt install libncurses5-dev libncursesw5-dev (To install ncurses lib)
+make menuconfig
+sudo apt install libelf-dev
+sudo apt install libssl-dev
+make -j $(nproc)
+sudo make modules_install
+sudo make install
+uname -mrs
