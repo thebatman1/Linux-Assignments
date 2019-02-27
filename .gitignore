@@ -4,4 +4,6 @@ Assignment-2/myname.ko
 Assignment-2/myname.mod.c
 Assignment-2/myname.mod.o
 Assignment-2/myname.o
-Assignment-2/.*
+Assignment-*/.*
+*/a.out
+
