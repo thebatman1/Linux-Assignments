@@ -8,6 +8,7 @@ int main(int argc, char ** argv) {
 	int second_version = 0;
 	if (argc == 1) {
 		print_static_stats();	
+		exit(0);
 	} else if (argc >= 3) {
 		second_version = 1;	
 		exit(0);
