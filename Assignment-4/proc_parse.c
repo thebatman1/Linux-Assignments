@@ -10,7 +10,6 @@ int main(int argc, char ** argv) {
 		print_static_stats();	
 	} else if (argc >= 3) {
 		second_version = 1;	
-		printf("Second version coming soon!\n");
 		exit(0);
 	}
 	return 0;
